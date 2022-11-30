@@ -32,3 +32,6 @@ So `sys_vfork()` shows up in the trace but not `sys_fork()`.
 
 ## kernels
 The above was built from [linux-6.0.10.tar.xz](https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.0.10.tar.xz). Other kernels that also exhibit this are `6.0.9-060009-generic` and `5.19.17-051917-generic` from https://kernel.ubuntu.com/~kernel-ppa/mainline/.
+
+## Bugzilla
+After mostly convincing myself that I wasn't going mad I filed a bug here: https://bugzilla.kernel.org/show_bug.cgi?id=216758
